@@ -11,6 +11,8 @@
   .wrap { max-width: 1280px; margin: 0 auto; padding-left: 44px; padding-right: 44px; }
 
   /* ---- Nav (solid forest) ---- */
+  html { scroll-behavior: smooth; }
+  #contact { scroll-margin-top: 90px; }
   .nav { position: sticky; top: 0; z-index: 50; background: var(--forest); }
   .nav__inner { display: flex; align-items: center; gap: 40px; height: 78px; }
   .brand { display: flex; align-items: center; gap: 11px; color: var(--cream); }
@@ -180,7 +182,7 @@
       <a href="#locations">Locations</a>
       <a href="#trade">Trade Partners</a>
     </nav>
-    <a class="btn btn-clay" href="#trade" style="font-size:14px;padding:11px 20px;">Get In Touch</a>
+    <a class="btn btn-clay" href="#contact" style="font-size:14px;padding:11px 20px;">Get In Touch</a>
   </div>
 </header>
 
@@ -326,7 +328,7 @@
           <li>A new channel for brands — impulse purchases in non-traditional locations</li>
         </ul>
       </div>
-      <aside class="contact">
+      <aside id="contact" class="contact">
         <h3>Let's talk about working together.</h3>
         <p>Whether you're a brand looking for a new channel, or a distributor interested in supplying our machines — we'd love to hear from you.</p>
         <a class="btn btn-clay" href="mailto:info@pawket.co.uk">Email Us</a>
